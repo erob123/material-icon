@@ -1,0 +1,96 @@
+.fsSubmit input {
+  position: absolute;
+  top: -10px;
+  right: -50px;
+  background: transparent
+    url(https://raw.githubusercontent.com/tenfromfive/material-icon/main/send.svg)
+    21% center no-repeat border-box !important;
+  background-color: #3f51b5 !important;
+  border-radius: 10px !important;
+  height: 45px !important;
+  min-width: 120px !important;
+  text-indent: 37% !important;
+  outline: none;
+}
+
+.survey-mode.fsBody
+  .fsForm
+  .survey-header
+  .fsSubmit.fsPagination
+  .fsPreviousButton {
+  position: absolute;
+  top: -10px;
+  right: 75px;
+  background: transparent
+    url(https://raw.githubusercontent.com/tenfromfive/material-icon/main/arrow-back.svg)
+    21% center no-repeat border-box !important;
+  background-color: #f44336 !important;
+  border-radius: 10px !important;
+  height: 45px !important;
+  width: 120px !important;
+  text-indent: 37% !important;
+  outline: none;
+}
+
+.survey-mode.fsBody
+  .fsForm
+  .survey-header
+  .fsSubmit.fsPagination
+  .fsPreviousButton:after {
+  content: "Previous";
+  font-family: "Lato", global_font_string;
+  font-size: 14px !important;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  padding-left: 30px;
+  padding-bottom: 4px;
+}
+
+.survey-mode.fsBody
+  .fsForm
+  .survey-header
+  .fsSubmit.fsPagination
+  .fsPreviousButton:before {
+  content: "";
+}
+
+.survey-mode.fsBody
+  .fsForm
+  .survey-header
+  .fsSubmit.fsPagination
+  .fsNextButton {
+  position: absolute;
+  top: -10px;
+  right: -79px;
+  background: transparent
+    url(https://raw.githubusercontent.com/tenfromfive/material-icon/main/arrow-forward.svg)
+    79% center no-repeat border-box !important;
+  background-color: #3f51b5 !important;
+  border-radius: 10px !important;
+  height: 45px !important;
+  width: 120px !important;
+  text-indent: -37% !important;
+  outline: none;
+}
+
+.survey-mode.fsBody
+  .fsForm
+  .survey-header
+  .fsSubmit.fsPagination
+  .fsNextButton:before {
+  content: "Next";
+  font-family: "Lato", global_font_string;
+  font-size: 14px !important;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  text-indent: -15% !important;
+  padding-bottom: 4px;
+}
+
+.survey-mode.fsBody .fsForm .survey-header .fsSubmit.fsPagination {
+  margin: auto !important;
+  margin-left: 50% !important;
+  margin-right: 50% !important;
+}
